@@ -1,0 +1,58 @@
+{
+  "import_date": "2026-01-09T08:41:01.123834",
+  "source": "pickle_import",
+  "model_type": "GradientBoostingClassifier",
+  "features_count": 28,
+  "feature_info": {
+    "n_features": 28,
+    "feature_importances": [
+      0.048463817835439994,
+      0.0660559373949306,
+      0.13678124086107094,
+      0.024126059608043534,
+      0.00011081764925851233,
+      0.013583994413232109,
+      0.5257801983298972,
+      0.06294553470402485,
+      0.013647442251456329,
+      0.0039248603023992875,
+      0.013209186326971599,
+      0.0034781563313505894,
+      0.002491034638100135,
+      9.938798319192085e-05,
+      0.005410737131293114,
+      1.0867810538460903e-05,
+      0.00011263720042207401,
+      0.022560094389108134,
+      0.01875020139112162,
+      1.8744331499091187e-05,
+      0.000358810220764572,
+      0.00024770638649358187,
+      0.007814945719141304,
+      0.0006649392868490091,
+      0.019972076254554785,
+      5.5308990861254524e-08,
+      0.009118147389704304,
+      0.00026236855015148873
+    ]
+  },
+  "preprocessing": {
+    "method": "Model3 - Winsorization + log1p + StandardScaler",
+    "transformations": [
+      "Winsorization at 99th percentile (cap outliers)",
+      "log1p transformation (fix skewness)",
+      "StandardScaler (mean=0, std=1)"
+    ],
+    "sparse_removed": [
+      "richmedia_count",
+      "encrypted",
+      "uses_nonstandard_port",
+      "launch_count"
+    ],
+    "caps_count": 32,
+    "scaler_fitted": true,
+    "n_features": 28,
+    "mode": "28-feature (sparse removal)"
+  },
+  "note": "Imported from pickle file. Uses Model3.ipynb preprocessing approach."
+}

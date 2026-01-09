@@ -18,6 +18,16 @@ pip install -r requirements.txt
 #### Files
 `DataCleaning.ipynb`: Contains code to clean the data
 
+`PreProcessingAnalysis.ipynb`: Contains EDA conducted on raw data to better understand the data structure
+
+`EDA.ipynb`: Contains EDA on cleaned/processed data
+
+`PCA.ipynb`: Contains code to attempt PCA on the code to reduce dimensionality of the code
+
+`SHAP.ipynb`: Contains SHAP Analysis on Tree-Based Predictor
+
+`ModelTraining.ipynb`: Contains model training code 
+
 `ocr.ipynb`: Contains investigation of `used_ocr` feature
 
 #### Folders
